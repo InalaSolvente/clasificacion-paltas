@@ -1,0 +1,56 @@
+{
+  "config": {
+    "metadata_path": "Avocado Ripening Dataset.xlsx",
+    "images_dir": "Avocado Ripening Dataset",
+    "output_dir": "reports\\eda",
+    "seed": 42,
+    "examples_per_class": 4,
+    "analysis_size": 64
+  },
+  "rows_metadata": 14722,
+  "jpg_files": 14710,
+  "missing_images": [
+    "T10_d02_072_a_1",
+    "T10_d02_072_b_1",
+    "T10_d04_065_a_3",
+    "T10_d04_065_b_3",
+    "T20_d02_141_a_2",
+    "T20_d02_141_b_2",
+    "T20_d03_192_a_1",
+    "T20_d03_192_b_1",
+    "T20_d03_212_a_2",
+    "T20_d03_212_b_2",
+    "Tam_d02_052_a_2",
+    "Tam_d02_052_b_2"
+  ],
+  "orphan_images": [],
+  "invalid_or_corrupt_images": 12,
+  "filename_parse_failures": 0,
+  "filename_metadata_mismatches": 0,
+  "duplicate_hash_groups": 0,
+  "duplicate_extra_files": 0,
+  "samples": 478,
+  "storage_groups": {
+    "T10": 8870,
+    "T20": 2926,
+    "Tam": 2926
+  },
+  "class_counts": {
+    "1": 3572,
+    "2": 2234,
+    "3": 2758,
+    "4": 3294,
+    "5": 2864
+  },
+  "class_percent": {
+    "1": 24.26,
+    "2": 15.17,
+    "3": 18.73,
+    "4": 22.37,
+    "5": 19.45
+  },
+  "dimensions": {
+    "800x800": 14710
+  },
+  "non_monotonic_sample_sequences": 0
+}

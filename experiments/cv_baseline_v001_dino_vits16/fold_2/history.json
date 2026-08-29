@@ -1,0 +1,72 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.6305784526325406,
+    "validation_loss": 0.929369728816183,
+    "validation_accuracy": 0.561345,
+    "validation_balanced_accuracy": 0.541915,
+    "validation_macro_f1": 0.478823,
+    "validation_mae": 0.516387,
+    "validation_qwk": 0.859022
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.9549099985434084,
+    "validation_loss": 0.9451197495585993,
+    "validation_accuracy": 0.536975,
+    "validation_balanced_accuracy": 0.530781,
+    "validation_macro_f1": 0.473633,
+    "validation_mae": 0.471008,
+    "validation_qwk": 0.857023
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.9041545342425911,
+    "validation_loss": 0.8333806317103537,
+    "validation_accuracy": 0.608824,
+    "validation_balanced_accuracy": 0.593558,
+    "validation_macro_f1": 0.549789,
+    "validation_mae": 0.448319,
+    "validation_qwk": 0.882867
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.8571648958588944,
+    "validation_loss": 0.8122797106441698,
+    "validation_accuracy": 0.619328,
+    "validation_balanced_accuracy": 0.625797,
+    "validation_macro_f1": 0.616428,
+    "validation_mae": 0.396639,
+    "validation_qwk": 0.896169
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.8438033704855004,
+    "validation_loss": 0.7893031796342448,
+    "validation_accuracy": 0.636134,
+    "validation_balanced_accuracy": 0.614585,
+    "validation_macro_f1": 0.575669,
+    "validation_mae": 0.379832,
+    "validation_qwk": 0.887884
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.833057219073886,
+    "validation_loss": 0.7860832120242872,
+    "validation_accuracy": 0.642017,
+    "validation_balanced_accuracy": 0.622558,
+    "validation_macro_f1": 0.592724,
+    "validation_mae": 0.371008,
+    "validation_qwk": 0.894189
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.825220225619621,
+    "validation_loss": 0.7916077312670255,
+    "validation_accuracy": 0.643277,
+    "validation_balanced_accuracy": 0.625105,
+    "validation_macro_f1": 0.616333,
+    "validation_mae": 0.371849,
+    "validation_qwk": 0.899261
+  }
+]

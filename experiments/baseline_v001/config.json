@@ -1,0 +1,43 @@
+{
+  "name": "baseline_v001",
+  "data": {
+    "manifest_path": "reports\\eda\\manifest.csv",
+    "valid_only": true,
+    "classes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "group_column": "sample_id",
+    "target_column": "ripening_index",
+    "stratify_column": "storage_group"
+  },
+  "split": {
+    "train_fraction": 0.7,
+    "validation_fraction": 0.1,
+    "test_fraction": 0.2,
+    "seed": 42
+  },
+  "augmentation": {
+    "enabled": true,
+    "crop_scale_min": 0.8,
+    "horizontal_flip_probability": 0.5,
+    "rotation_degrees": 10.0,
+    "brightness": 0.12,
+    "contrast": 0.12,
+    "saturation": 0.08
+  },
+  "model_name": "resnet18",
+  "image_size": 224,
+  "batch_size": 32,
+  "gradient_accumulation_steps": 1,
+  "epochs": 10,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "patience": 3,
+  "accelerator": "cuda",
+  "mixed_precision": true,
+  "notes": "Comparación inicial con transfer learning."
+}

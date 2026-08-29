@@ -1,0 +1,82 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.622515853123157,
+    "validation_loss": 1.0150093507844131,
+    "validation_accuracy": 0.479251,
+    "validation_balanced_accuracy": 0.481776,
+    "validation_macro_f1": 0.420835,
+    "validation_mae": 0.594386,
+    "validation_qwk": 0.74968
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.9258963318215203,
+    "validation_loss": 0.9098301406998139,
+    "validation_accuracy": 0.596013,
+    "validation_balanced_accuracy": 0.614366,
+    "validation_macro_f1": 0.533234,
+    "validation_mae": 0.457689,
+    "validation_qwk": 0.876729
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.8892043102852667,
+    "validation_loss": 0.8054666755261359,
+    "validation_accuracy": 0.637917,
+    "validation_balanced_accuracy": 0.62849,
+    "validation_macro_f1": 0.623365,
+    "validation_mae": 0.393816,
+    "validation_qwk": 0.884674
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.8466349274329713,
+    "validation_loss": 0.8213120389294315,
+    "validation_accuracy": 0.610252,
+    "validation_balanced_accuracy": 0.608368,
+    "validation_macro_f1": 0.602609,
+    "validation_mae": 0.421074,
+    "validation_qwk": 0.874343
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.8205255846080092,
+    "validation_loss": 0.7888073710265098,
+    "validation_accuracy": 0.646867,
+    "validation_balanced_accuracy": 0.635716,
+    "validation_macro_f1": 0.63166,
+    "validation_mae": 0.377543,
+    "validation_qwk": 0.901447
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.8188987442922756,
+    "validation_loss": 0.7924018999585858,
+    "validation_accuracy": 0.628967,
+    "validation_balanced_accuracy": 0.600561,
+    "validation_macro_f1": 0.595613,
+    "validation_mae": 0.386493,
+    "validation_qwk": 0.887573
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.8057524889605152,
+    "validation_loss": 0.7574022306830852,
+    "validation_accuracy": 0.644426,
+    "validation_balanced_accuracy": 0.611362,
+    "validation_macro_f1": 0.596821,
+    "validation_mae": 0.37022,
+    "validation_qwk": 0.891615
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.7865857628919825,
+    "validation_loss": 0.8066258519500881,
+    "validation_accuracy": 0.600895,
+    "validation_balanced_accuracy": 0.624646,
+    "validation_macro_f1": 0.548252,
+    "validation_mae": 0.454028,
+    "validation_qwk": 0.874571
+  }
+]

@@ -1,0 +1,28 @@
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw dataset (not versioned: size and licensing)
+Avocado Ripening Dataset/
+Avocado Ripening Dataset.xlsx
+
+# Generated training artifacts
+experiments/**/*.pt
+experiments/handcrafted_features.csv
+
+# Generated manifest contains machine-local absolute image paths
+reports/eda/manifest.csv
+
+# Local plotting caches
+.matplotlib-cache/
